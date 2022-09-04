@@ -13,8 +13,9 @@ const AppContainer = styled.div`
 
 function App() {
   const connect = () => {
-    console.log('connect')
+    console.log('connect');
     const socket = io('http://localhost:9000');
+    console.log(socket);
   };
 
   useEffect(() => {
